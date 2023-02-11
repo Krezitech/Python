@@ -56,8 +56,22 @@ elif q3 ==4:
 else:
     print("Escogiste una opción erronea")
 
+if gr > ra and gr > hu and gr > sl:
+    print("Vas a la casa de Gryffindor")
 
-print(gr)
-print(ra)
-print(hu)
-print(sl)
+elif ra > gr and ra > hu and ra > sl:
+    print("Vas a la casa de Ravenclaw ")
+
+elif hu > gr and hu > ra and hu > sl:
+    print("Vas a la casa de Hufflepuff")
+
+elif sl > gr and sl > ra and sl > hu:
+    print("Vas a la casa de Slytherin")
+
+else:
+    print("No se pudo determinar a que casa perteneces")
+print(" ")
+print("Gryffindor ",gr)
+print("Ravenclaw ",ra)
+print("Hufflepuff ",hu)
+print("Slytherin ",sl)
