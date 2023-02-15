@@ -15,7 +15,7 @@ fcolor = str(input("¿De que color quieres el fondo del QR? "))
 qrcolor = str(input("¿De que color quieres el QR? "))
 
 img = qr.make_image(fill_color = fcolor, back_color = qrcolor)    
-img.save('qr_personalizado.png')                                        
+img.save('helen.png')                                        
 
 """
 To improve this, we could do a couple of things:
