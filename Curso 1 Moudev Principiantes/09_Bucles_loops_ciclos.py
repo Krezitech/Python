@@ -36,7 +36,9 @@ while my_condition < 20:
         break                                   # Rompe el ciclo Aqui
         print("La condición está en 19")        # Ya no lo toma en cuenta pq ya se detuvo en 18       
 
-07 02 16
+# For
+
+
 
 
 
