@@ -21,3 +21,14 @@ print(type(3.4))                # "float"
 print(type(False))              # "Boleano"
 print(type(2+3j))               # "Complejo"
 
+""""
+
+ Lista  guardan elementos de uno en uno, de forma ordenada
+
+ Tupla  guardan elementos que no se pueden editar 
+
+ set   guardan elementos que no se pueden repetir
+ 
+ Diccionario  guardan elementos de forma, clave-valor
+
+"""
