@@ -38,11 +38,55 @@ while my_condition < 20:
 
 # For
 
+my_list = [35, 24, 62, 52, 30, 30, 17]      # Se define una lista
+
+for element in my_list:                     # Se puede hacer que cada elemento se imprima de la lista
+    print(element)
+
+my_tuple =(35, 1.74,"David", "Adrian", "Kreziped")
+for element in my_tuple:                     
+    print(element)
+
+my_set = {"Susana", "Susanita", 73}  
+for element in my_set:                     
+    print(element)
+
+my_dict = {"Nombre":"Benxito", "Apellido":"De_Jong", "Edad":74, 1:"Mapinfo"}
+for element in my_dict:                     
+    print(element)
+
+# Imprimió todas las listas, en el caso de los direccionarios solo las claves (keys).
+
+
+my_dict = {"Nombre":"Benxito", "Apellido":"De_Jong", "Edad":74, 1:"Mapinfo"}
+for element in my_dict.values():              # poniendo .values() imprime valores y no las llaves 
+    print(element)
+
+
+my_dict = {"Nombre":"Benxito", "Apellido":"De_Jong", "Edad":74, 1:"Mapinfo"}
+for element in my_dict:                     
+    print(element)
+else:                                                     # Una vez que termina la lista, va al else
+    print("Terminó de imprimir la lista de keys del diccionario")
 
 
 
+my_dict = {"Nombre":"Benxito", "Apellido":"De_Jong", "Edad":74, 1:"Mapinfo"}
+for element in my_dict:                     
+    print(element)
+    if element == "Edad":       # con un "if", poniendo la condición, se para, hace el break
+        break
+else:
+    print("Terminó de imprimir la lista de keys del diccionario")   # Aqui ya no lo lee por el break
+
+print("Este si lo imprime pq esta fuera del for")
 
 
 
-
-
+for element in my_dict:                     
+    print(element)
+    if element == "Edad":       
+        continue                    # Hace un "mini" break, y solo se salta al incio del siguiente "for"
+    print("Imprime menos en \"Edad\"")
+else:
+    print("Terminó de imprimir la lista de keys del diccionario")   
