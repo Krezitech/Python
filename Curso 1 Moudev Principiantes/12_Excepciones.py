@@ -2,3 +2,14 @@
 #################      Excepciones      ##################
 ##########################################################
 
+# Se usan para en caso de errores, el programa no muera, sino contenga el problema
+
+print("#################################################")
+print("#################      1      ###################")
+print("#################################################")
+
+print(5 + "5")              # No puede sumarlos pq uno es "str" y el otro "int"
+
+
+
+
