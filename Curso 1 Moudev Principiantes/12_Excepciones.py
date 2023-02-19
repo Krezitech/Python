@@ -138,6 +138,8 @@ print("#################      7     ####################")
 print("#################################################")
 print(" ")
 
+# Captura de la información de la excepción
+
 numero1 = 5
 numero2 = "5"
 
@@ -145,7 +147,24 @@ try:
     print(numero1 + numero2)                         
     print("No hubo error!!!")    
 
-except  ValueError:                     
-    print("Hubo un error en el tipo (Value)")  
+except  TypeError as error:             # Encuentra el error en este caso es de type y lo asigna a la var "error"        
+    print(error)            
+
+print(" ")
+print("#################################################")
+print("#################      8     ####################")
+print("#################################################")
+print(" ")
+
+# Captura de la información de la excepción
+
+numero1 = 5
+numero2 = "5"
+
+try:
+    print(numero1 + numero2)                         
+    print("No hubo error!!!")    
+
+except Exception as errororifico:       # También se puede hacer, si es una excepción sea cual sea, la asigne a la variable "errorifico"
+    print(errororifico)
  
-video = 09_21_40
