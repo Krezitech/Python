@@ -28,3 +28,4 @@ class Persona:
 my_persona = Persona("Adrian", "Gaona")         # se ponen los valores
 print(my_persona.full_name)                     # se imprime la función (linea 26)
 
+a=1
