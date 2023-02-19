@@ -28,5 +28,19 @@ class Persona:
 my_persona = Persona("Adrian", "Gaona")         # se ponen los valores
 print(my_persona.full_name)                     # se imprime la función (linea 26)
 
-a=1
-V=4
+
+
+
+class Persona:
+    def __init__(self, name, surename):
+        self.full_name = f"{name} {surename}"   
+
+    def walk(self):                                 # Dentro de la clase se puede pueen poner mas funciones
+        print(f"{self.full_name} Está caminando")   # y dentro de esta se peude mandar a llamar con el self
+
+
+my_persona = Persona("Adrian", "Gaona")         
+print(my_persona.full_name)                     
+my_persona.walk()
+
+a = 08_34_56
