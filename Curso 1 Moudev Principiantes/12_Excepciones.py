@@ -96,14 +96,14 @@ numero1 = 5
 numero2 = "5"
 
 try:
-    print(numero1 + numero2)                         
-    print("No hubo error!!!")                        
+    print(numero1 + numero2)
+    print("No hubo error!!!")
 
 except:
     print("Hubo un error en la suma")               # Se ejecuta pq hay un error
 
 else:
-    print("La ejecución continúa correctamente")     
+    print("La ejecución continúa correctamente")
 
 finally:
     print("Continua y continua")                    # Igual se ejectuta pq es "al final de todo", SIEMPRE
@@ -123,14 +123,14 @@ numero1 = 5
 numero2 = "5"
 
 try:
-    print(numero1 + numero2)                         
-    print("No hubo error!!!")    
+    print(numero1 + numero2)
+    print("No hubo error!!!")
 
-except  ValueError:                     
-    print("Hubo un error en el tipo (Value)")  
+except  ValueError:
+    print("Hubo un error en el tipo (Value)")
 
-except  TypeError:                       
-    print("Hubo un error en el tipo (Type)")  
+except  TypeError:
+    print("Hubo un error en el tipo (Type)")
 
 print(" ")
 print("#################################################")
@@ -144,11 +144,11 @@ numero1 = 5
 numero2 = "5"
 
 try:
-    print(numero1 + numero2)                         
-    print("No hubo error!!!")    
+    print(numero1 + numero2)
+    print("No hubo error!!!")
 
 except  TypeError as error:             # Encuentra el error en este caso es de type y lo asigna a la var "error"        
-    print(error)            
+    print(error)
 
 print(" ")
 print("#################################################")
